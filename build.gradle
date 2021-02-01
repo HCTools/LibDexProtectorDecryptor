@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'org.hctools'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.hctools.libdexprotectordecryptor.LibDexProtectorDecryptor',
+                'Implementation-Title':   'LibDexProtectorDecryptor',
+                'Implementation-Version': archiveVersion)
+    }
+
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+}
+
+dependencies {
+}

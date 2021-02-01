@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: LibDexProtectorDecryptor
+Implementation-Version: 1.0.0
+Main-Class: org.hctools.libdexprotectordecryptor.LibDexProtectorDecryp
+ tor
+

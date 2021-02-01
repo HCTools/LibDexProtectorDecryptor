@@ -1,0 +1,4 @@
+org/hctools/libdexprotectordecryptor/DecryptUtil.java
+ org.hctools.libdexprotectordecryptor.DecryptUtil
+org/hctools/libdexprotectordecryptor/LibDexProtectorDecryptor.java
+ org.hctools.libdexprotectordecryptor.LibDexProtectorDecryptor
